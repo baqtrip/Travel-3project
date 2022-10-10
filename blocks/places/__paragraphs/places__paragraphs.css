@@ -1,0 +1,7 @@
+.places__paragraphs {
+    display: flex;
+    gap: 40px;
+    max-width: 984px;
+    width: 100%;
+    margin: 0;
+}
