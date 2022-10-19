@@ -5,3 +5,10 @@
     flex-wrap: wrap;
     margin: 92px auto 0;
 }
+
+@media screen and (max-width: 320px) {
+    .places {
+        flex-direction: column;
+        margin: 64px auto 0;
+    }
+}

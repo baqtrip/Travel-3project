@@ -1,0 +1,15 @@
+.header__links {
+    display: flex;
+    gap: 18px;
+    margin: 0;
+    padding: 0;
+
+}
+
+@media screen and (max-width: 320px) {
+    .header__links {
+
+        max-height: 42px;
+        height: 100%;
+    }
+}
