@@ -6,8 +6,21 @@
     margin: 0;
 }
 
+@media screen and (max-width: 1024px) {
+    .places__paragraphs {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__paragraphs {
+     max-width: 720px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .places__paragraphs {
         flex-direction: column;
+        max-width: 288px;
     }
 }
