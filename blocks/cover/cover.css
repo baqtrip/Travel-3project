@@ -2,7 +2,6 @@
     margin: 92px auto 0;
     background-image: url('../../images/__background.png');
     background-size: cover;
-    min-height: 740px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,3 +10,10 @@
     position: relative;
     z-index: 1;
 }
+
+@media (max-width: 728px) {
+    .cover {
+        max-width: 288px;
+       flex-direction: column;
+    }
+}  

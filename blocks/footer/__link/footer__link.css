@@ -14,6 +14,8 @@
 
 @media (max-width: 320px) {
     .footer__link {
+        max-width: 288px;
+        width: 100%;
         font-size: 24px;
         line-height: 24px;
     }

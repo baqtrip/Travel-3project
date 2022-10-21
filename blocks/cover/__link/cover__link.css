@@ -1,4 +1,12 @@
 .cover__link {
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 1184px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-decoration: none;
     color: #fff;
     -webkit-font-smoothing: antialiased;
@@ -21,3 +29,10 @@
 .cover__link:hover::before {
     opacity: 0.8;
 }
+
+@media (max-width: 728px) {
+    .cover__link {
+        max-width: 320px;
+    min-height: 200px;
+    }
+}  

@@ -12,15 +12,10 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .places__paragraphs {
-     max-width: 720px;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 728px) {
     .places__paragraphs {
         flex-direction: column;
         max-width: 288px;
+        margin: 0 auto;
     }
 }
