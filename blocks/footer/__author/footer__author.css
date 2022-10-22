@@ -1,5 +1,5 @@
 .footer__author {
-    max-width: 186px;
+    max-width: 168px;
     width: 100%;
     font-weight: 400;
     font-size: 14px;
@@ -9,8 +9,8 @@
 @media (max-width: 728px) {
     .footer__author {
         max-width: 288px;
-       margin: 48px 0 0 0;
-       font-size: 14px;
-       line-height: 14px;
+        margin: 48px 0 0 0;
+        font-size: 14px;
+        line-height: 14px;
     }
 }

@@ -5,9 +5,9 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     .photo {
-        max-width: 928px;
+        max-width: 720px;
     }
 }
 
