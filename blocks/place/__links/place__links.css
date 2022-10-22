@@ -1,4 +1,4 @@
-.places__links {
+.place__links {
     max-width: 456px;
     width: 100%;
     display: flex;
@@ -6,14 +6,14 @@
     align-items: flex-end;
     justify-content: flex-end;
     gap: 12px;
- margin-top: 48px; 
+    margin-top: 48px;
 }
 
 @media screen and (max-width: 728px) {
-    .places__links {
+    .place__links {
         margin: 0 auto;
         max-width: 288px;
         font-size: 32px;
-line-height: 35px;
+        line-height: 35px;
     }
 }
