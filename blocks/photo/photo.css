@@ -8,12 +8,13 @@
 @media (max-width: 1023px) {
     .photo {
         max-width: 720px;
+        margin: 88px auto 0;
     }
 }
 
 @media (max-width: 728px) {
     .photo {
-        max-width: 287px;
+        max-width: 288px;
         margin: 64px auto 0;
     }
 }

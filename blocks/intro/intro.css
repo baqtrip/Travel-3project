@@ -7,6 +7,13 @@
     justify-content: flex-start;
 }
 
+@media screen and (max-width: 1279px) {
+    .intro {
+        max-width: 928px;
+    }
+}
+
+
 @media screen and (max-width: 1023px) {
     .intro {
         max-width: 720px;
@@ -17,6 +24,6 @@
 @media screen and (max-width: 728px) {
     .intro {
         margin: 64px auto 0;
-        max-width: 280px;
+        max-width: 288px;
     }
 }
