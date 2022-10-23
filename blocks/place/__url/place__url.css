@@ -6,4 +6,6 @@
     line-height: 12px;
     max-width: 456px;
     width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }

@@ -5,11 +5,3 @@
     padding: 0;
     list-style-type: none;
 }
-
-@media screen and (max-width: 320px) {
-    .header__links {
-
-        max-height: 42px;
-        height: 100%;
-    }
-}

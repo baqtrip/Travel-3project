@@ -1,12 +1,18 @@
-.place__heading {
+.place__column {
     display: flex;
     gap: 40px;
     max-width: 984px;
     width: 100%;
 }
 
+@media screen and (max-width: 1279px) {
+    .place__column {
+        gap: 32px;
+    }
+}
+
 @media screen and (max-width: 728px) {
-    .place__heading {
+    .place__column {
         margin: 0 auto;
         flex-direction: column;
         gap: 32px;

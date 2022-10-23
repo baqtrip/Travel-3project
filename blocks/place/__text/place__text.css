@@ -8,14 +8,13 @@
 
 @media (max-width: 1023px) {
     .place__text {
-        gap: 17px;
+        gap: 25px;
         margin: 0 auto;
     }
 }
 
 @media (max-width: 728px) {
     .place__text {
-        margin: 0 auto 0;
-        gap: 25px;
+        margin: 0 auto;
     }
 }

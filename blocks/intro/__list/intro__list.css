@@ -1,20 +1,21 @@
-.intro__list-text {
+.intro__list {
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     margin: 0;
     line-height: 18px;
+    max-width: 690px;
+    width: 100%;
 }
 
-@media (max-width: 1024px) {
-    .intro__list-text {
-        max-width: 690px;
+@media (max-width: 1023px) {
+    .intro__list {
+        max-width: 720px;
     }
 }
 
 @media (max-width: 728px) {
-    .intro__list-text {
+    .intro__list {
         max-width: 288px;
-        padding: 0 0 0 0;
     }
 }
