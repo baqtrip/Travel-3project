@@ -9,7 +9,7 @@
 @media (max-width: 1023px) {
     .place__text {
         gap: 25px;
-        margin: 0 auto;
+        margin: 48px auto 0;
     }
 }
 
