@@ -15,7 +15,10 @@
     .place__column {
         margin: 0 auto;
         flex-direction: column;
-        gap: 32px;
+
+    }
+
+    .place__column:first-child {
         max-width: 288px;
     }
 }

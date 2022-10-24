@@ -5,6 +5,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+    text-align: end;
 }
 
 @media (max-width: 728px) {
@@ -12,5 +13,6 @@
         max-width: 288px;
         margin: 48px auto 0;
         line-height: 14px;
+        text-align: start;
     }
 }
