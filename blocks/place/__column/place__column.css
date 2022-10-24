@@ -15,7 +15,6 @@
     .place__column {
         margin: 0 auto;
         flex-direction: column;
-
     }
 
     .place__column:first-child {
