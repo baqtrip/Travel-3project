@@ -1,5 +1,5 @@
 .place__paragraph {
-    margin: 1;
+    margin: 0;
     display: flex;
     flex-direction: column;
     max-width: 484px;
